@@ -1,0 +1,29 @@
+npx create-next-app@latest
+command to run setup: npm run dev
+
+npm install -D tailwindcss
+npx tailwindcss init
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+to use tailwind add in global css: 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+and, make changes in the tailwind config file according to the stack we will work
+
+import BsFillMoonStarsFill (icon) as component
+we have our navigaion bar in the nav
+we will split each part with section tag
+
+ <section>
+<nav> `Navbar` <nav>
+<div> `HeroSection` <div>  (1st div for info and another for icons and 3rd one for circular img)
+ <section>
+
+<secction>
+<section>
+
+for dark mode use - useStates 
+and we need to make change in tailwind config file for that
