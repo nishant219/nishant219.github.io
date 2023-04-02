@@ -16,7 +16,7 @@ const Timeline = () => {
                     <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
                 </div>
                 <div class="mt-3 sm:pr-8"> 
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">B-Tech (IT'24) </h3>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">B-Tech (IT-24) </h3>
                     <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Information Technology [2020-2024] </time>
                     <p class="text-base font-normal text-gray-500 dark:text-gray-400">Government College of Engineering, Karad is an autonomous technical institute in the Indian state of Maharashtra.</p>
                 </div>
