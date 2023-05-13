@@ -287,8 +287,8 @@ function Home(){
                 layout="responsive"
                 src={FileSharingDapp}
               />
-              <p className="text-gray-950  dark:text-white"> File Sharing Dapp :
-                <a href="https://github.com/nishant219/File_Sharing_Dapp"> <span className="text-yellow-200"> Link </span> </a>
+              <p className="text-gray-950  dark:text-white"> Crowd Funding Marketplace :
+                <a href="https://github.com/nishant219/Crowd-Funding-Marketplace"> <span className="text-yellow-200"> Link </span> </a>
               </p>
             </div>
 
