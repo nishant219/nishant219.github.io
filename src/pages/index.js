@@ -66,15 +66,15 @@ function Home(){
               //   </a>
               // </li>
 
-        <li>
-          <a
-            className="bg-gradient-to-r from-cyan-500 text-to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-            href="E:\Portfolio 2023\April2023\portfolio2023\src\pages\NishantResumeMay2023.pdf"  // Replace with the actual path to your resume file
-            download 
-          >
-            Resume
-          </a>
-        </li>
+        // <li>
+        //   <a
+        //     className="bg-gradient-to-r from-cyan-500 text-to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+        //     href="E:\Portfolio 2023\April2023\portfolio2023\src\pages\NishantResumeMay2023.pdf"  // Replace with the actual path to your resume file
+        //     download 
+        //   >
+        //     Resume
+        //   </a>
+        // </li>
                     
             </ul>
           </nav>
