@@ -290,7 +290,7 @@ function Home(){
                 src={FileSharingDapp}
               />
               <p className="text-gray-950  dark:text-white"> File Sharing Dapp :
-                <a href="https://github.com/nishant219/File_Sharing_Dapp"> <span className="text-yellow-200"> Link </span> </a>
+                <a href="https://file-sharing-mern-client.vercel.app/"> <span className="text-yellow-200"> Link </span> </a>
               </p>
             </div>
 
