@@ -18,12 +18,13 @@ import CourseWork from "../../public/courseWork.png";
 import BlockChain from "../../public/blockchain.png";
 
 import BreakingBad from "../../public/breakingBad.png";
-import DecentralizedExchange from "../../public/decentralizedExchange.png";
+import BookStore from "../../public/bookstore2.png";
 import Ecommerse from "../../public/Ecommerce.png";
 import FileSharingDapp from "../../public/fileSharingDapp.png";
 import github from "../../public/github.png";
 import inshort from "../../public/inshort.png";
 import recipeApp from "../../public/recipeApp.png";
+import resume from "../../public/Nishant_BTech_Nov2023.pdf";
 
 
 import Footer from "./footer";
@@ -59,12 +60,13 @@ function Home(){
 <li>
   <a
     className="bg-gradient-to-r from-cyan-500 text-to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-    href="E:\Portfolio 2023\April2023\portfolio2023\src\pages\NishantResumeMay2023.pdf"  // Replace with the actual path to your resume file
-    download
+    href={resume}  // Replace with the actual path to your resume file
+    download="Nishant_BTech_Nov2023.pdf"
   >
     Resume
   </a>
 </li>
+
             </ul>
           </nav>
           <div className="text-center p-10 py-10">
@@ -261,7 +263,7 @@ function Home(){
                 src={Ecommerse}
               />
               <p className="text-gray-950  dark:text-white"> Ecommerce website (MERN) :
-                <a href="https://github.com/nishant219/"> <span className="text-yellow-200"> Link </span> </a>
+                <a href="https://github.com/nishant219/LCO-ECommerseWeb"> <span className="text-yellow-200"> Link </span> </a>
               </p>
             </div>
 
@@ -275,7 +277,7 @@ function Home(){
                 src={recipeApp}
               />
               <p className="text-gray-950  dark:text-white"> Recipe CRUD website (MERN) :
-                <a href="https://github.com/nishant219/recipeApp"> <span className="text-yellow-200"> Link </span> </a>
+                <a href="https://mern-delight.netlify.app/"> <span className="text-yellow-200"> Link </span> </a>
               </p>
             </div>
 
@@ -288,8 +290,8 @@ function Home(){
                 layout="responsive"
                 src={FileSharingDapp}
               />
-              <p className="text-gray-950  dark:text-white"> File Sharing Dapp :
-                <a href="https://github.com/nishant219/File_Sharing_Dapp"> <span className="text-yellow-200"> Link </span> </a>
+              <p className="text-gray-950  dark:text-white"> File Sharing WebMERN :
+                <a href="https://github.com/nishant219/FileSharing-MERN"> <span className="text-yellow-200"> Link </span> </a>
               </p>
             </div>
 
@@ -300,10 +302,10 @@ function Home(){
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={DecentralizedExchange}
+                src={BookStore}
               />
-              <p className="text-gray-950 dark:text-white"> Own Decentralized Exchange :
-                <a href="https://github.com/nishant219/Decentralized-Exchange-"> <span className="text-yellow-200"> Link </span> </a>
+              <p className="text-gray-950 dark:text-white"> MERN-BookStore :
+                <a href="https://mern-book-store-client.vercel.app/"> <span className="text-yellow-200"> Link </span> </a>
               </p>
             </div>
 
@@ -317,7 +319,7 @@ function Home(){
                 src={github}
               />
               <p className="text-gray-950  dark:text-white"> `FireHub` github_API+firebase profile searcher :
-                <a href="https://firehub-219.netlify.app/signin"> <span className="text-yellow-200"> Link </span> </a>
+                <a href="https://firehub-219.netlify.app/"> <span className="text-yellow-200"> Link </span> </a>
               </p>
             </div>
 
@@ -331,7 +333,7 @@ function Home(){
                 src={inshort}
               />
               <p className="text-gray-950  dark:text-white"> Inshort news app web clone :
-                <a href="https://github.com/nishant219/InshortClone"> <span className="text-yellow-200"> Link </span> </a>
+                <a href="https://inshort-clone-client.vercel.app/"> <span className="text-yellow-200"> Link </span> </a>
               </p>
             </div>
 
